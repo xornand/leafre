@@ -1,11 +1,11 @@
-#summary LeafRuby is a Leaf plugin that implements a Ruby binding.
+#summary LeafRub is a Leaf plugin that implements a Ruby binding.
 
 = Introduction =
 
-LeafRuby embeds a Ruby interpreter into a Leaf C plugin. This allows you to write your Leaf plugins completely in Ruby. 
+LeafRub embeds a Ruby interpreter into a Leaf C plugin. This allows you to write your Leaf plugins completely in Ruby. 
 
 = Details =
 
-LeafRuby uses
+LeafRub uses
   * Write plugins in less time
   * Utilize all the great libraries Ruby gives you
