@@ -8,5 +8,5 @@ Leaf is a framework/tool written in C for conducting security research on closed
 
 Leaf contains:
   * Elf parsing and analysis code
-  * An x86/x86-64 disassembler
+  * An x86/x86-64 disassembler (64 bit support is disabled at the moment)
   * A plugin interface (with example plugins)
