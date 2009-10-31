@@ -1,4 +1,4 @@
-# A quick introduction to installing and running Leaf
+#summary A quick introduction to installing and running Leaf
 
 = Setup =
 
