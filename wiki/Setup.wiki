@@ -1,3 +1,5 @@
+# A quick introduction to installing and running Leaf
+
 = Setup =
 
 Leaf is very easy to compile and setup. Here are some step by step instructions
