@@ -28,6 +28,19 @@ Leaf is very easy to compile and setup. Here are some step by step instructions
 
 *leaf -h
 
+#7. You can compile and install plugins easily. Their default install directory is _/opt/leaf/plugins_
+
+*cd shell_out/
+
+*make
+
+*make install
+
+#8. Now if you want to load only the shell_out plugin at runtime do the following.
+
+*leaf -f /bin/ls -u shell_out.leaf
+
+Otherwise all plugins found in _/opt/leaf/plugins_ will be loaded
 
 =Note(s)=
 
