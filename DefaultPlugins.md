@@ -1,0 +1,32 @@
+# Introduction #
+
+Leaf includes several plugins in each release. These are plugins written by me to perform specific functions.
+
+
+# Details #
+
+Default plugins:
+  * **ShellOut**
+
+A simple command line disassembler that shows off most of Leaf's API. Its output looks like objdump except with tons of cross references, symbol/relocation lookup and ASCII string matching.
+
+  * **lhit**
+
+An example hit tracer using the Leaf debugging API http://em386.blogspot.com/2009/07/leaf-hit-tracing.html
+
+  * **LeafRub**
+
+A plugin containing an embedded Ruby interpreter for writing Leaf plugins in Ruby. Work on this plugin is on going.
+
+  * **MagicRip**
+
+Originally written by Eric Monti, this was turned into a Leaf plugin to search ELF data segments for embedded files streams.
+
+
+  * **SQLeaf**
+
+A very crude work in progress to develop a web interface for colloborative reverse engineering. This plugin dumps a disassembled binary to a PostgreSQL server and includes a Ruby/Sinatra front end for accessing that data. You can bring up the disassembly in your browser and comment on specific lines or goto references based on symbol and xref menus. This needs a lot of work but has a lot of potential.
+
+  * **Elf\_Hash**
+
+Produces SHA1 hashes of ELF segments and sections. Useful for determining which areas of a binary have changed against previous versions.

@@ -1,0 +1,10 @@
+# Introduction #
+
+Leaf is a framework/tool written in C for conducting security research on closed (or open) source Elf objects. I plan to support Linux, BSD and Solaris platforms. Currently Linux has the most complete support, including a debug API.
+
+# Some Details #
+
+Leaf contains:
+  * Elf parsing and analysis code
+  * An x86/x86-64 disassembler (64 bit support is disabled at the moment)
+  * A plugin interface (with example plugins)
